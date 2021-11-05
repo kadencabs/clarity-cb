@@ -268,7 +268,7 @@ loadbutton.Text = ""
 loadbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 loadbutton.TextSize = 14.000
 loadbutton.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/kadencabs/clarity-shit/main/script?token=AWDJE4PRLTAXNMY644KG5U3BQSEJE", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/kadencabs/clarity-shit/main/script", true))()
 	game.CoreGui.loader:Destroy()
 end)
 
