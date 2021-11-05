@@ -1383,11 +1383,13 @@ aD:CreateLabel("Sounds")
 local ebsfx = Instance.new("Sound")
 ebsfx.Parent = game:GetService("SoundService")
 
-ebSoundsDropdown = aD:CreateDropdown("EB Sound", {"Ownage", "Godlike", "Skeet", "Rust", "Neverlose", "Fatality", "Baimware", "Quake", "OSU", "MW2019"}, function(K)
+ebSoundsDropdown = aD:CreateDropdown("EB Sound", {"Ownage", "Godlike", "Wow", "Skeet", "Rust", "Neverlose", "Fatality", "Baimware", "Quake", "OSU", "MW2019"}, function(K)
     if K == "Ownage" then
         ebsfx.SoundId = 'rbxassetid://6887181639'
     elseif K == "Godlike" then
         ebsfx.SoundId = 'rbxassetid://7463103082'
+    elseif K == "Wow" then
+        ebsfx.SoundId = 'rbxassetid://7872233648'
     elseif K == "Skeet" then
         ebsfx.SoundId = 'rbxassetid://5447626464'
     elseif K == "Rust" then
